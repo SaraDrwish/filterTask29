@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(228, 211, 227);
+    color: rgb(99, 70, 87);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+width: 80%;
+margin: 16px auto;
+box-shadow: rgba(187, 149, 165, 0.2) 0px 7px 29px 0px;
+padding:1%;
+
+}
+.top_choises{
+    margin-top: 4%;
+text-align: center;
+}
+.top_choises button{
+       display: inline-block;
+       border: none;
+       padding: 1% 2%;
+       background-color: rgb(155, 103, 137);
+       margin: 1%;
+       color: rgb(54, 33, 25);
+       font-size: 18px;
+       font-weight: bold;
+       cursor: pointer;
+       border-radius:15px ;
+       -webkit-border-radius:15px ;
+       -moz-border-radius:15px ;
+       -ms-border-radius:15px ;
+       -o-border-radius:15px ;
+}
+
+.bottom_imgs{
+    margin:4% auto  ;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.bottom_imgs img {
+    box-shadow: rgba(78, 32, 51, 0.2) 0px 7px 29px 0px;
+    width: 20%;
+    height: 200px;
+}
